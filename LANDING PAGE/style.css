@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color : #030423;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(1 2 22);
+    
+}
+.left img{
+    width: 80px;
+    border-radius: 250px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.right ul{
+    display: flex;
+    
+}
+.right ul a{
+    text-decoration: none;
+}
+.right ul li{
+    list-style: none;
+    padding: 25px;
+    color: rgb(255, 255, 255);
+}
+.right ul a:hover{
+    font-size: 17px;
+    
+}
+.right ul li:hover{
+    color: #666795;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+main img{
+    margin-top: 25px;
+    width: 60vw;
+    /* height: 50vh; */
+}
+main .text{
+    color: white;
+    font-size: 100px;
+    /* margin-top: -350px; */
+    
+}
+main .text input{
+    font-size: 20px;
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid white;
+    background: #050730;
+    font-size: 25px;
+}
+
+.main .input{
+    margin-top: -69px;
+
+}
+
+.main .input img{
+    width: 25px;
+    position: absolute;
+    margin-top: 71px;
+    margin-left: -35px;
+    cursor: pointer;
+}
+.input #event{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 63px;
+    cursor: text;
+}
+
+.mid-navbar{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    background-color: rgb(1 2 22);
+    height: 205px;
+}
+.mid-right ul{
+    display: flex;
+}
+.mid-right ul a{
+    text-decoration: none;
+    margin: 1px -120px;
+    
+}
+.mid-right ul li{
+    list-style: none;
+    padding: 40px 105px;
+    /* color: rgb(255, 255, 255);
+    margin: -95px; */
+    
+}
+.mid-right ul a:hover{
+    font-size: 17px;
+    
+}
+.mid-right ul li:hover{
+    color: #666795;
+}
+.mid-right .vertical{
+    height: 130px;
+    width: 1px;
+    background-color: white;
+    margin: 30px 135px;
+}
+.mid-right ul .content{
+    /* border: 2px solid red; */
+    width: 20rem;
+    margin: auto;
+}
+.about{
+    margin: auto;
+    border: 2px solid red;
+    color: white;
+    margin-top: 205px;
+    width: 85vw;
+}

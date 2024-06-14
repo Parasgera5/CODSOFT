@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LANDING PAGE</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="navbar">
+          <div class="left">
+            <img class="logo" src="images/logo.png" alt="" />
+          </div>
+          <div class="right">
+            <ul>
+              <a href="">
+                <li>HOME</li>
+              </a>
+              <a href="">
+                <li>ABOUT US</li>
+              </a>
+              <a href="">
+                <li>SERVICES</li>
+              </a>
+              <a href="">
+                <li>CONTACT US</li>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="main">
+        <img class="main-image" src="images/headphone.avif" alt="" />
+        <div class="text">
+          Welcome
+          <div class="input">
+            <center>
+              <a id="event" onclick="change()" href="">enter song</a>
+              <input id="in" type="text" />
+              <a href=""><img src="images/search.png" alt="" /></a>
+            </center>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="mid-navbar">
+        
+        <div class="mid-right">
+          <ul>
+            <a href="">
+              <li>24 Hour Service</li>
+              <div class="content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam itaque accusamus optio culpa exercitationem molestias quasi fuga eaque, dolorem ipsam.</p>
+            </div>
+        </a>
+        <div class="vertical"></div>
+        <a href="">
+            <li>Unlimited Songs</li>
+            <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam itaque accusamus optio culpa exercitationem molestias quasi fuga eaque, dolorem ipsam.</p>
+          </div>
+        </a>
+        <div class="vertical"></div>
+        <a href="">
+            <li>Unlimited Storage</li>
+            <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam itaque accusamus optio culpa exercitationem molestias quasi fuga eaque, dolorem ipsam.</p>
+          </div>
+        </a>
+        <div class="vertical"></div>
+        <a href="">
+            <li>New Songs At Very First</li>
+            <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam itaque accusamus optio culpa exercitationem molestias quasi fuga eaque, dolorem ipsam.</p>
+          </div>
+            </a>
+            <!-- <li>24 Hour Service</li> -->
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="about">
+        <div class="lefta">
+        <u><h2>About Us</h2></u>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, tempore? Eveniet dolorum quia quaerat rem similique earum nisi enim, ex, ducimus, reprehenderit explicabo! Ipsam, necessitatibus. Aut facere eos dolor aliquid doloribus, minima harum inventore vitae saepe. Velit similique aspernatur vero?</p>
+    </div>
+    <div class="righta">
+        <img src="images/music" alt="">
+    </div>
+      </div>
+    </main>
+
+    <footer></footer>
+  </body>
+  <script>
+    function change() {
+      document.getElementById("event").innerHTML = "";
+      document.getElementById("in").style.backgroundColor = "white";
+    }
+  </script>
+</html>
